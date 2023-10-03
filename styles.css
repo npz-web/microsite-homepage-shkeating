@@ -7,8 +7,17 @@ body {
     background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(5, 176, 231, 0.42) 100%);
 }
 
+/* navigation */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+
 nav {
-    background: #ffe2e8;
     padding: 10px 0;
 }
 
@@ -25,14 +34,25 @@ nav a:hover, nav a:focus {
     border-color: red;
 }
 
-img {
-  max-width: 100%;  
-}
-
 #logo img {
     width: 95px;
     margin: 20px;
 }
+
+/* homepage */
+
+.home main {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home img {
+  max-width: 600px;  
+  width: 100%;
+}
+
 
 h1 {
     color: #16B0F2;
@@ -45,8 +65,6 @@ h1 {
 h2 {
     color: red;
 }
-
-/* home */
 
 .💙 {
     color: #D316F2; 
